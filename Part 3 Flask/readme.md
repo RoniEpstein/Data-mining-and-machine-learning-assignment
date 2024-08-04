@@ -1,6 +1,10 @@
 
 # Car Price Prediction Application
 
+## Contact
+Odeya Hazani - Odeyah3@gmail.com
+Roni Epstein - Roniepst@gmail.com
+
 This project is a machine learning-based web application that predicts car prices based on various features. It uses a Flask backend with a trained ElasticNet regression model to provide price estimates for cars.
 
 ## Features
@@ -22,19 +26,13 @@ This project is a machine learning-based web application that predicts car price
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/car-price-prediction.git
-   cd car-price-prediction
-   ```
-
-2. Create a virtual environment and activate it:
+1. Create a virtual environment and activate it:
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-3. Install the required packages:
+2. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
@@ -45,7 +43,7 @@ This project is a machine learning-based web application that predicts car price
 
 2. Run the Flask application:
    ```
-   python app.py
+   python api.py
    ```
 
 3. Open a web browser and navigate to `http://localhost:5000` to use the application.
@@ -92,10 +90,4 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 [Specify your license here, e.g., MIT License]
 
-## Contact
-
-[Odeya Hazani] - [Odeyah3@gmail.com]
-[Roni Epstein] - [epstein@gmail.com]
-
-
-Project Link: https://github.com/your-username/car-price-prediction
+Project Link: [https://github.com/your-username/car-price-prediction](https://github.com/RoniEpstein/Data-mining-and-machine-learning-assignment)
