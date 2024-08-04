@@ -1,11 +1,11 @@
 
 # Car Price Prediction Application
 
-## Contact
-Odeya Hazani - Odeyah3@gmail.com
-Roni Epstein - Roniepst@gmail.com
-
 This project is a machine learning-based web application that predicts car prices based on various features. It uses a Flask backend with a trained ElasticNet regression model to provide price estimates for cars.
+
+## Contact
+- Odeya Hazani - Odeyah3@gmail.com
+- Roni Epstein - Roniepst@gmail.com
 
 ## Features
 
@@ -87,7 +87,5 @@ The model is trained using the following process:
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
 
 ## License
-
-[Specify your license here, e.g., MIT License]
 
 Project Link: [https://github.com/your-username/car-price-prediction](https://github.com/RoniEpstein/Data-mining-and-machine-learning-assignment)
