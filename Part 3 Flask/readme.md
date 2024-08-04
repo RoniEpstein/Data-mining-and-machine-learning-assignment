@@ -14,11 +14,18 @@ This project is a machine learning-based web application that predicts car price
 
 ## Tech Stack
 
-- Python 3.8+
+- Python 3.9+
 - Flask 2.1.0
-- pandas 1.3.3
-- numpy 1.21.2
-- scikit-learn 0.24.2
+- pandas 2.2.2
+- numpy 1.26.4
+- scikit-learn 1.5.1
+- Flask 3.0.3
+- pickle5 0.0.11
+- Werkzeug 3.0.3
+- gunicorn 20.1.0
+- logging 0.5.1.2
+- requests 2.26.0
+
 
 ## Installation
 
@@ -81,10 +88,6 @@ The model is trained using the following process:
 ## Contributing
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
