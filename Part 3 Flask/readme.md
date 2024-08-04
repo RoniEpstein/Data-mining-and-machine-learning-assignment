@@ -25,7 +25,7 @@ This project is a machine learning-based web application that predicts car price
 1. Create a virtual environment and activate it:
    ```
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   `venv\Scripts\activate` # On Windows
    ```
 
 2. Install the required packages:
