@@ -1,0 +1,222 @@
+:root {
+    --color-background: #FFF5E6;
+    --color-text-car: #f05274;
+    --color-text-price: #38d0cb;
+    --color-line: #2a4348;
+    --color-accent: #ffdd55a3;
+    --color-text: #333333;
+    --color-text-light: #FFFFFF;
+    --color-guru: #FFAA55;
+}
+
+body {
+    font-family: 'Heebo', Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border: none;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(450deg, var(--color-text-car), var(--color-text-price));
+    background: linear-gradient(455deg, var(--color-text-car), var(--#66C2FF), var(--color-text-price));
+    background: #f05274c0;
+    border-bottom: none;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.card-header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #f5dd7f;
+}
+
+.card-second-header {
+    background: linear-gradient(450deg, var(--color-accent)10%, var(--color-background)20%, var(--color-accent)40%, var(--color-background)65%);
+    background: #38d0cbab;
+    border-bottom: none;
+    padding: 15px;
+    position: relative;
+}
+
+h1 {
+    color: var(--color-text-light);
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 2px 1px rgba(24, 19, 19, 0.712);
+    margin-top: 6px;
+}
+
+.btn-evaluate {
+    background-color: #ffdd55;
+    color: #FFFFFF;
+    font-size: 1.9rem;
+    font-weight: bold;
+    padding: 4px 90px;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow:
+        0 6px 0 #e6bd38,
+        0 8px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 0;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-evaluate:hover {
+    background-color: #ffdd55;
+    box-shadow:
+        0 4px 0 #e6bd38,
+        0 6px 8px rgba(0, 0, 0, 0.3);
+    top: 2px;
+}
+
+.btn-evaluate:active {
+    background-color: #faab5c;
+    box-shadow:
+        0 2px 0 #f5a44c,
+        0 3px 6px rgba(0, 0, 0, 0.4);
+    top: 4px;
+}
+
+
+#result {
+    background-color: var(--color-text-price);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-text-light);
+    box-shadow: 0 12px 9px rgba(0, 0, 0, 0.1);
+}
+
+.form-control,
+.form-select {
+    border: 2px solid var(--color-text-price);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 12, 0.25);
+}
+
+.card-body {
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+.form-label {
+    color: var(--color-text-car);
+    font-weight: bold;
+}
+
+select.form-select {
+    background-color: #FFFFFF;
+    color: var(--color-text);
+}
+
+input[type="number"],
+input[type="text"],
+textarea.form-control {
+    background-color: #FFFFFF;
+    color: var(--color-text);
+}
+
+/* Subtle playful elements */
+.card::before {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: var(--color-accent);
+    opacity: 0.7;
+}
+
+.card::after {
+    content: none;
+}
+
+.card .card::after {
+    content: '✨';
+    position: absolute;
+    bottom: 10px;
+    right: 158px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+
+/* Additional styling */
+.form-select,
+.form-control {
+    margin-bottom: 15px;
+}
+
+.card-header h1 {
+    margin-bottom: 0;
+}
+
+/* Accent colors */
+.accent-text {
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+    }
+}
+
+.logo-container {
+    position: absolute;
+    top: 4px;
+    right: 195px;
+    z-index: 1000;
+}
+
+.logo {
+    max-height: 130px;
+    max-width: 130px;
+    border-radius: 25%;
+    mask-image: radial-gradient(circle, black 70%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle, black 75%, transparent 100%);
+}
+
+.logo2-container {
+    position: absolute;
+    top: 4px;
+    right: 852px;
+    z-index: 1000;
+}
+
+.logo2 {
+    max-height: 150px;
+    max-width: 130px;
+    border-radius: 25%;
+    mask-image: radial-gradient(circle, black 70%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle, black 75%, transparent 100%);
+}
