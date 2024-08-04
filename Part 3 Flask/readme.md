@@ -1,6 +1,6 @@
 # CarPrice Guru - Car Price Prediction Application
 
-![CarPrice Guru Interface](path/to/your/interface/image.png)
+![CarPrice Guru Interface](https://github.com/RoniEpstein/Data-mining-and-machine-learning-assignment/blob/main/Part%203%20Flask/static/CarPrice%20Guru%20Interface.png)
 
 This project is a machine learning-based web application that predicts car prices based on various features. It uses a Flask backend with a trained ElasticNet regression model to provide price estimates for cars in Israel.
 
