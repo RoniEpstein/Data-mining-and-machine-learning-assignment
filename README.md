@@ -7,6 +7,7 @@ Extracted 19 features including specs, pricing, and metadata
 
 ## Part 2 - Model
 Data Processing - performed data cleaning and feature engineering
+
 Model Building Developed an Elastic Net prediction model for car prices
 Cross-validated results using 10-fold CV
 
@@ -15,6 +16,7 @@ Web Application
 Created a Flask API to serve the trained model
 Built an HTML interface for users to input car details
 Returns predicted market price based on user inputs
+![CarPrice Guru Interface](https://github.com/user-attachments/assets/3fe5064e-7a7b-473a-bcfc-1d32c9d47d5b)
 
 ## 
 The project demonstrates end-to-end ML system development, from data collection through deployment. Each component is organized in separate directories within the main repository.
